@@ -1,0 +1,12 @@
+{
+    "name": "basic-app/memory-logger",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "BasicApp\\MemoryLogger\\": ""
+        }
+    },
+    "require": {
+        "psr/log": "*"
+    }
+}
