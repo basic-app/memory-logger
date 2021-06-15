@@ -58,8 +58,8 @@ class MemoryLogger extends \Psr\Log\AbstractLogger
                     continue;
                 }
             }
-            
-            $return[] = $data;
+
+            $return[] = lang($data['message'], $data['context']);
         }
 
         return $return;
