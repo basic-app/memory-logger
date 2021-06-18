@@ -43,7 +43,7 @@ class MemoryLogger extends \Psr\Log\AbstractLogger
         $this->_messages = [];
     }
 
-    public function getMessages(?array $levels = null) : array
+    public function getMessages($levels = null) : array
     {
         $return = [];
 
